@@ -94,6 +94,15 @@ const questions = [
     ]
   },
   {
+    question: 'what is the binary number of 10?',
+    answers: [
+      { text: '1010', correct: true },
+      { text: '1111', correct: false },
+      { text: '1100', correct: false },
+      { text: '1001', correct: false }
+    ]
+  },
+  {
     question: 'Is web development fun?',
     answers: [
       { text: 'Kinda', correct: false },
