@@ -103,6 +103,13 @@ const questions = [
     ]
   },
   {
+    question: 'what is the binary number of 10?',
+    answers: [
+     { text: '1010', correct: true },
+     { text: '1100', correct: false }
+     ]
+  },
+  {
     question: 'What is 4 * 2?',
     answers: [
       { text: '6', correct: false },
