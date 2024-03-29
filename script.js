@@ -112,6 +112,69 @@ const questions = [
     ]
   },
   {
+    question: 'which prime number is closest to 50?',
+    answers: [
+        { text: '47', correct: true },
+        { text: '53', correct: false },
+        { text: '43', correct: false },
+        { text: '58', correct: false }
+        ]
+  },
+  {
+    question: 'what is protocol used for majority of network?',
+    answers:  [
+      { text: 'OSX', correct: false },
+      { text: '64 bit', correct: false },
+      { text: 'TCP\IP', correct: true },
+      { text: 'IPX', correct: false }
+      ]
+  },
+  {
+    question: 'if the two strings are identical , then strcmp() function returns?',
+    answers: [
+      { text: '-1', correct: false },
+      { text: '0', correct: true },
+      { text: '1', correct: false },
+      { text: 'val', correct: false }
+      ]
+  },
+  {
+    question: 'how will you print \n on the screen?',
+    answers: [
+      { text: 'printf("\\n");', correct: true },
+      { text: 'printf("\n");', correct: false },
+      { text: 'echo"\\n";', correct: false },
+      { text: 'printf('\n')', correct: false }
+      ]
+  },
+  {
+    question: 'what ball is used in table tennis?',
+    answers: [
+      { text: 'football', correct: false },
+      { text: 'basketball', correct: false },
+      { text: 'tennisball', correct: false },
+      { text: 'ping-pong', correct: true }
+      ]
+  },
+  {
+    question: 'what game is called sport of king?',
+    answers: [
+      { text: 'go', correct: false },
+      { text: 'chess', correct: true },
+      { text: 'tennis', correct: false },
+      { text: 'carrom', correct: false }
+      ]
+  },
+  {
+    question: 'what is the fear of fun?',
+    answers: [
+      { text: 'phobophobia', correct: false },
+      { text: 'cherophobia', correct: true },
+      { text: 'hilaophpbia', correct: false },
+      { text: 'funophobia', correct: false }
+      ]
+  },
+  {
     question: 'What is 4 * 2?',
     answers: [
       { text: '6', correct: false },
