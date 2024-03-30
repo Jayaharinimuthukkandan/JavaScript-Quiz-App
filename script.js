@@ -393,7 +393,7 @@ const questions = [
       ]
   },
   {
-    questions: '3 is a perfect square?',
+    question: '3 is a perfect square?',
     answers: [
       { text: 'yes', correct: false },
       { text: 'no', correct: true }
