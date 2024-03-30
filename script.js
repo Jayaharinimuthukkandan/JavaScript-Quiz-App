@@ -14,7 +14,7 @@ nextButton.addEventListener('click', () => {
 
 function startGame() {
   startButton.classList.add('hide')
-  shuffledQuestions = questions.sort(() => Math.random() - .5)
+  shuffledQuestions = questions.sort(() => Math.random() - 0.5).slice(0,50)
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
@@ -446,8 +446,40 @@ const questions = [
     question: 'what does PHP stand for?',
     answers: [
         { text: 'Hypertext preprocessor', correct: true },
-        { text: 'python high programmig', correct: false }
+        { text: 'python high programming', correct: false }
         ]
+  },
+  {
+    question: 'what container that keeps a specific number of similar datatypes?',
+    answers: [
+      { text: 'array', correct: true },
+      { text: 'list', correct: false },
+      { text: 'tuple', correct: false },
+      { text: 'file', correct: false }
+      ]
+  },
+  {
+    question: 'which of the computer language is written binary codes only?',
+    answers: [
+      { text: 'c', correct: false },
+      { text: 'machine language', correct: true },
+      { text: 'c++', correct: false },
+      { text: 'java', correct: false },
+      ]
+  },
+  {
+    question: 'product of 82 and 5 is?',
+    answers: [
+      { text: '410', correct: true },
+      { text: '400', correct: false }
+      ]
+  },
+  {
+  question: '-10 is a whole number?',
+    answers: [
+      { text: 'yes', correct: false },
+      { text: 'no', correct: true }
+      ]
   },
   {
     question: 'What is 4 * 2?',
