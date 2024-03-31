@@ -130,15 +130,6 @@ const questions = [
       ]
   },
   {
-    question: 'how will you print \n on the screen?',
-    answers: [
-      { text: 'printf("\\n");', correct: true },
-      { text: 'printf("\n");', correct: false },
-      { text: 'echo"\\n"', correct: false },
-      { text: 'printf('\n')', correct: false }
-      ]
-  },
-  {
     question: 'what ball is used in table tennis?',
     answers: [
       { text: 'football', correct: false },
