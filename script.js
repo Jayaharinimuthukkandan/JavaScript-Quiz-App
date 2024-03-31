@@ -103,6 +103,51 @@ const questions = [
     ]
   },
   {
+        question: 'what is the binary number of 10?',
+    answers: [
+      { text: '1010', correct: true },
+      { text: '1111', correct: false },
+      { text: '1100', correct: false },
+      { text: '1001', correct: false }
+    ]
+  },
+  {
+    question: 'Is web development fun?',
+    answers: [
+      { text: 'Kinda', correct: false },
+      { text: 'YES!!!', correct: true },
+      { text: 'Um no', correct: false },
+      { text: 'IDK', correct: false }
+    ]
+  },
+  {
+    question: 'which prime number is closest to 50?',
+    answers: [
+        { text: '47', correct: true },
+        { text: '53', correct: false },
+        { text: '43', correct: false },
+        { text: '58', correct: false }
+        ]
+  },
+  {
+    question: 'what is protocol used for majority of network?',
+    answers:  [
+      { text: 'OSX', correct: false },
+      { text: '64 bit', correct: false },
+      { text: 'TCP\IP', correct: true },
+      { text: 'IPX', correct: false }
+      ]
+  },
+  {
+    question: 'if the two strings are identical then strcmp() function returns?',
+    answers: [
+      { text: '-1', correct: false },
+      { text: '0', correct: true },
+      { text: '1', correct: false },
+      { text: 'val', correct: false }
+      ]
+  },
+ {
     question: 'What is 4 * 2?',
     answers: [
       { text: '6', correct: false },
